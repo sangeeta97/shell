@@ -3,7 +3,7 @@
 # File: guessinggame.sh
 function guess { 
 
-    ct=$(ls | wc -l)
+    ct=$(ls -a | wc -l)
 
     echo "please guess the number of files in the current directory :"
     read response
